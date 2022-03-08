@@ -1,0 +1,9 @@
+[package]
+name = "diesel_minimal_example"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = { version = "1.4.8", features = ["postgres", "serde_json", "numeric", "128-column-tables", "chrono", "uuidv07"] }
